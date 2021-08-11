@@ -1,0 +1,222 @@
+body{
+   font-family: sans-serif;
+}
+/* tags everything, can affect the whole program */ /**/
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+/*For taking away the selector, dot like thingy*/
+.mytabs input[type="radio"] {
+  display: none;
+}
+/*Affects the heading of the tab*/
+.label-tabs{
+   width: 10%;
+   height: auto;
+  padding: 25px;
+  background: #585858;
+  color: white;
+  margin-left: 0;
+}
+/*Affects the content inside the tab*/
+.tab{
+    width: 1720px;
+    height: 760px;
+    order: 1;
+    display: none;
+}
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block;
+}
+.mytabs input[type='radio']:checked + label {
+  background: #DA0037
+}
+.kt{
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  bottom: 500px;
+  color: white;
+}
+.ss{
+  display: inline-block;
+  position: relative;
+  left: -205px;
+  bottom: 450px;
+  color: white;
+}
+.pl{
+  display: inline-block;
+  position: relative;
+  left: -355px;
+  bottom: 400px;
+  color: white;
+}
+.services-image{
+  margin-left: 55px;
+  margin-top: 0;
+}
+.top-image{
+  margin: 0;
+  margin-left: 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 30px;
+  border-width: 6px;
+}
+.line {
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  left: 100px;
+  color: white;
+  /*span text */
+}
+
+.idd {
+  font-family: sans-serif;
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 530px;
+  color: white;
+  font-size: 0.8em;
+}
+.mindmap{
+  position: absolute;
+  display: inline-block;
+  left: 200px;
+  top: 900px;
+}
+.wed{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.purple{
+   max-width: 260px;
+   height: auto;
+   position: absolute;
+   right: 200px;
+   top: 1070px;
+   border-style: solid;
+   padding: 10px;
+   background-color: #954f72;
+   border-color: #954f72;
+   border-radius: 25px;
+}
+.bsd{
+  font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: medium;
+}
+.purple-circle{
+  font-family: sans-serif;
+    color: white;
+    font-size: smaller;
+}
+.blue{
+   max-width: 200px;
+   height: auto;
+   position: absolute;
+   left: 420px;
+   top: 905px;
+   border-style: solid;
+   padding: 10px;
+   background-color: #2980b9;
+   border-color: #2980b9;
+   border-radius: 25px;
+}
+.threed{
+  font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: medium;
+}
+.blue-circle{
+  font-family: sans-serif;
+    color: white;
+    font-size: smaller;
+}
+.yellow{
+   max-width: 260px;
+   height: auto;
+   position: absolute;
+   left: 110px;
+   top: 1150px;
+   border-style: solid;
+   padding: 10px;
+   background-color: #f39c12;
+   border-color: #f39c12;
+   border-radius: 25px;
+}
+.msd{
+  font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: medium;
+}
+.yellow-circle{
+  font-family: sans-serif;
+    color: white;
+    font-size: smaller;
+}
+.image-one{
+  position: absolute;
+  left: 30px;
+}
+.image-two{
+  position: absolute;
+  right: 60px;
+  top: 300px;
+}
+.image-three{
+  position: absolute;
+  left: 100px;
+  top: 500px;
+}
+.image-four{
+  position: absolute;
+  right: 50px;
+  top: 900px;
+}
+.image-five{
+  position: absolute;
+  left: 150px;
+  top: 1100px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #423F3E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #CD113B;
+}
+
+/* Add a background color and some padding around the form */
+.mail-container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
